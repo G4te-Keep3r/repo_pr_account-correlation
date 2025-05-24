@@ -1,6 +1,7 @@
 # repo_pr_account-correlation
 **gathering GitHub activity and analyzing account PR behavior by repo**
 This project scrapes GitHub pull request data from a curated list of repositories and generates visual analytics to explore patterns in contributor behavior.
+ [https://g4te-keep3r.github.io/repo_pr_account-correlation/](https://g4te-keep3r.github.io/repo_pr_account-correlation/)
 
 ---
 
