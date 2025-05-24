@@ -135,8 +135,8 @@ master_repo_order = repo_hits.index.tolist()
 save_pie(repo_hits, "Repos Hit (Unique Contributors)", "pie_repo_hits.png", label=True)
 save_pie(first_repo, "First PR", "pie_first_repo.png", label=False, full_repo_order=master_repo_order)
 save_pie(second_repo, "Second PR", "pie_second_repo.png", label=False, full_repo_order=master_repo_order)
-save_pie(third_plus_repo, "Third+ PR", "pie_third_plus_repo.png", label=False, full_repo_order=master_repo_order)
-save_pie(all_prs_repo_counts, "All PRs by Repo", "pie_all_prs_repo.png")
+save_pie(third_plus_repo, "Third+ PR", "pie_third_plus_repo.png", full_repo_order=master_repo_order)
+save_pie(all_prs_repo_counts, "All PRs by Repo", "pie_all_prs_repo.png", full_repo_order=master_repo_order)
 save_pie(state_counts, "PR State Distribution", "pie_state_distribution.png", use_repo_colors=False, offset=30)
 save_pie(issue_counts, "PRs With vs Without Linked Issues", "pie_linked_issues.png", use_repo_colors=False)
 
@@ -153,7 +153,7 @@ summary = f"{len(qualified_users)} accounts made PRs to at least 2 different rep
 charts = [
     {"filename": "pie_repo_hits.png", "title": "Repos Hit (Unique Contributors)"},
     {
-        "title": "PR Order Breakdown",
+        "title": "PR Order Breakdown (still unique contributors)",
         "layout": "row",
         "subcharts": [
             {"filename": "pie_first_repo.png", "title": "First PR"},
