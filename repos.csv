@@ -1,0 +1,38 @@
+Project,Lang,Public repo
+mediainfo,C++,https://github.com/MediaArea/MediaInfo
+jellyfin (server),C#,https://github.com/jellyfin/jellyfin
+jellyfin (webui),JS,https://github.com/jellyfin/jellyfin-web
+transmission,C++,https://github.com/transmission/transmission/
+rtorrent,C++,https://github.com/rakshasa/rtorrent && https://github.com/rakshasa/libtorrent
+autobrr,Go,https://github.com/autobrr/autobrr
+deluge,Python,https://github.com/deluge-torrent/deluge
+qbittorrent,C++,https://github.com/qbittorrent/qBittorrent
+syncthing,Go,https://github.com/syncthing/syncthing
+libtorrent rasterbar ,C++,https://github.com/arvidn/libtorrent
+rclone,Go,https://github.com/rclone/rclone
+irssi,C,https://github.com/irssi/irssi/
+znc,C++,https://github.com/znc/znc
+weechat,C,https://github.com/weechat/weechat
+lftp,C++,https://github.com/lavv17/lftp
+ffmpeg,C,https://github.com/FFmpeg/FFmpeg
+sonarr,C#,https://github.com/Sonarr/Sonarr
+radarr,C#,https://github.com/radarr/radarr
+prowlarr,C#,https://github.com/Prowlarr/Prowlarr
+bazarr,Python,https://github.com/morpheus65535/bazarr
+jackett,C#,https://github.com/Jackett/Jackett
+sabnzbd,Python,https://github.com/sabnzbd/sabnzbd
+transmission remote,Java,https://github.com/y-polek/TransmissionRemote
+tautulli,Python,https://github.com/Tautulli/Tautulli
+nzbget,C++,https://github.com/nzbgetcom/nzbget
+ombi,C#,https://github.com/Ombi-app/Ombi
+lidarr,C#,https://github.com/Lidarr/Lidarr
+nextcloud,PHP,https://github.com/nextcloud/server
+nginx,C,https://github.com/nginx/nginx
+curl,C,https://github.com/curl/curl
+openssh,C,https://github.com/openssh/openssh-portable/
+openssl,C,https://github.com/openssl/openssl
+php core,C,https://github.com/php/php-src/
+python core,C,https://github.com/python/cpython
+rutorrent,JS & PHP,https://github.com/Novik/ruTorrent
+rutorrent-filemanager,JS & PHP,https://github.com/nelu/rutorrent-filemanager
+transdroid,Java,https://github.com/erickok/transdroid
