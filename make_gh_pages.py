@@ -11,7 +11,7 @@ DB_PATH = "pull_requests_2025.db"
 OUTPUT_DIR = "docs"
 TEMPLATE_DIR = "templates"
 TEMPLATE_FILE = "report_template.html"
-TIME_START = "2025-04-14T00:00:00Z"
+TIME_START = "2025-04-17T00:00:00Z"
 TIME_END = "2025-05-21T23:59:59Z"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
