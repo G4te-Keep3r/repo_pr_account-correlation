@@ -1,0 +1,219 @@
+time python3 fetch_prs_to_sqlite_2025only.py 
+
+== Processing language: C (1/9) ==
+
+Processing irssi/irssi (1/38)
+Fetching irssi/irssi: 10page [00:15,  1.58s/page]
+Inserting irssi/irssi PRs: 100%|███████████████████████████████████████████| 11/11 [00:00<00:00, 16.48it/s]
+Inserted 11 PRs for irssi/irssi.
+
+Processing weechat/weechat (2/38)
+Fetching weechat/weechat: 7page [00:14,  2.01s/page]
+Inserting weechat/weechat PRs: 100%|█████████████████████████████████████| 12/12 [00:00<00:00, 5082.98it/s]
+Inserted 12 PRs for weechat/weechat.
+
+Processing FFmpeg/FFmpeg (3/38)
+Fetching FFmpeg/FFmpeg: 4page [00:07,  1.99s/page]
+Inserting FFmpeg/FFmpeg PRs: 100%|█████████████████████████████████████████| 1/1 [00:00<00:00, 1370.69it/s]
+Inserted 1 PRs for FFmpeg/FFmpeg.
+
+Processing nginx/nginx (4/38)
+Fetching nginx/nginx: 4page [00:06,  1.66s/page]
+Inserting nginx/nginx PRs: 100%|███████████████████████████████████████████| 97/97 [00:12<00:00,  7.92it/s]
+Inserted 97 PRs for nginx/nginx.
+
+Processing curl/curl (5/38)
+Fetching curl/curl: 115page [04:07,  2.15s/page]
+Inserting curl/curl PRs: 100%|█████████████████████████████████████████| 1172/1172 [03:17<00:00,  5.95it/s]
+Inserted 1172 PRs for curl/curl.
+
+Processing openssh/openssh-portable (6/38)
+Fetching openssh/openssh-portable: 6page [00:09,  1.56s/page]
+Inserting openssh/openssh-portable PRs: 100%|██████████████████████████████| 21/21 [00:00<00:00, 74.97it/s]
+Inserted 21 PRs for openssh/openssh-portable.
+
+Processing openssl/openssl (7/38)
+Fetching openssl/openssl: 156page [04:47,  1.84s/page]
+Inserting openssl/openssl PRs: 100%|█████████████████████████████████████| 727/727 [01:50<00:00,  6.59it/s]
+Inserted 727 PRs for openssl/openssl.
+
+Processing php/php-src (8/38)
+Fetching php/php-src: 144page [04:22,  1.82s/page]
+Inserting php/php-src PRs: 100%|█████████████████████████████████████████| 818/818 [00:59<00:00, 13.85it/s]
+Inserted 818 PRs for php/php-src.
+
+Processing python/cpython (9/38)
+Fetching python/cpython: 108page [03:54,  2.29s/page]2025-05-23 22:42:09,727 [WARNING] Rate limit hit. Waiting 650 seconds (resets at 1748058779)
+
+[Rate Limit] Waiting 650 seconds...
+  Resuming in 1 seconds.....
+Fetching python/cpython: 614page [33:51,  3.31s/page] 
+Inserting python/cpython PRs: 100%|████████████████████████████████████| 4387/4387 [02:56<00:00, 24.85it/s]
+Inserted 4387 PRs for python/cpython.
+
+== Processing language: C# (2/9) ==
+
+Processing jellyfin/jellyfin (10/38)
+Fetching jellyfin/jellyfin: 58page [01:39,  1.72s/page]
+Inserting jellyfin/jellyfin PRs: 100%|███████████████████████████████████| 267/267 [00:48<00:00,  5.47it/s]
+Inserted 267 PRs for jellyfin/jellyfin.
+
+Processing Sonarr/Sonarr (11/38)
+Fetching Sonarr/Sonarr: 24page [00:55,  2.32s/page]
+Inserting Sonarr/Sonarr PRs: 100%|███████████████████████████████████████| 180/180 [00:20<00:00,  8.97it/s]
+Inserted 180 PRs for Sonarr/Sonarr.
+
+Processing radarr/radarr (12/38)
+Fetching radarr/radarr: 28page [01:05,  2.35s/page]
+Inserting radarr/radarr PRs: 100%|█████████████████████████████████████████| 92/92 [00:13<00:00,  6.77it/s]
+Inserted 92 PRs for radarr/radarr.
+
+Processing Prowlarr/Prowlarr (13/38)
+Fetching Prowlarr/Prowlarr: 12page [00:28,  2.35s/page]
+Inserting Prowlarr/Prowlarr PRs: 100%|█████████████████████████████████████| 26/26 [00:00<00:00, 75.80it/s]
+Inserted 26 PRs for Prowlarr/Prowlarr.
+
+Processing Jackett/Jackett (14/38)
+Fetching Jackett/Jackett: 35page [00:54,  1.56s/page]
+Inserting Jackett/Jackett PRs: 100%|███████████████████████████████████████| 35/35 [00:03<00:00,  9.93it/s]
+Inserted 35 PRs for Jackett/Jackett.
+
+Processing Ombi-app/Ombi (15/38)
+Fetching Ombi-app/Ombi: 11page [00:16,  1.50s/page]
+Inserting Ombi-app/Ombi PRs: 100%|███████████████████████████████████████████| 8/8 [00:01<00:00,  7.87it/s]
+Inserted 8 PRs for Ombi-app/Ombi.
+
+Processing Lidarr/Lidarr (16/38)
+Fetching Lidarr/Lidarr: 15page [00:34,  2.33s/page]
+Inserting Lidarr/Lidarr PRs: 100%|█████████████████████████████████████████| 23/23 [00:02<00:00,  9.63it/s]
+Inserted 23 PRs for Lidarr/Lidarr.
+
+== Processing language: C++ (3/9) ==
+
+Processing MediaArea/MediaInfo (17/38)
+Fetching MediaArea/MediaInfo: 6page [00:07,  1.33s/page]
+Inserting MediaArea/MediaInfo PRs: 100%|███████████████████████████████████| 70/70 [00:04<00:00, 16.83it/s]
+Inserted 70 PRs for MediaArea/MediaInfo.
+
+Processing transmission/transmission (18/38)
+Fetching transmission/transmission: 36page [00:59,  1.66s/page]
+Inserting transmission/transmission PRs: 100%|█████████████████████████████| 99/99 [00:21<00:00,  4.63it/s]
+Inserted 99 PRs for transmission/transmission.
+
+Processing rakshasa/rtorrent (19/38)
+Fetching rakshasa/rtorrent: 3page [00:04,  1.42s/page]
+Inserting rakshasa/rtorrent PRs: 100%|███████████████████████████████████| 58/58 [00:00<00:00, 4295.09it/s]
+Inserted 58 PRs for rakshasa/rtorrent.
+
+Processing rakshasa/libtorrent (20/38)
+Fetching rakshasa/libtorrent: 3page [00:04,  1.43s/page]
+Inserting rakshasa/libtorrent PRs: 100%|████████████████████████████████| 136/136 [00:01<00:00, 107.41it/s]
+Inserted 136 PRs for rakshasa/libtorrent.
+
+Processing qbittorrent/qBittorrent (21/38)
+Fetching qbittorrent/qBittorrent: 48page [01:25,  1.77s/page]
+Inserting qbittorrent/qBittorrent PRs: 100%|█████████████████████████████| 185/185 [00:41<00:00,  4.49it/s]
+Inserted 185 PRs for qbittorrent/qBittorrent.
+
+Processing arvidn/libtorrent (22/38)
+Fetching arvidn/libtorrent: 53page [01:21,  1.54s/page]
+Inserting arvidn/libtorrent PRs: 100%|█████████████████████████████████████| 85/85 [00:03<00:00, 23.62it/s]
+Inserted 85 PRs for arvidn/libtorrent.
+
+Processing znc/znc (23/38)
+Fetching znc/znc: 9page [00:14,  1.58s/page]
+Inserting znc/znc PRs: 100%|███████████████████████████████████████████████| 14/14 [00:02<00:00,  4.88it/s]
+Inserted 14 PRs for znc/znc.
+
+Processing lavv17/lftp (24/38)
+Fetching lavv17/lftp: 2page [00:02,  1.39s/page]
+Inserting lavv17/lftp PRs: 100%|█████████████████████████████████████████████| 2/2 [00:05<00:00,  2.95s/it]
+Inserted 2 PRs for lavv17/lftp.
+
+Processing nzbgetcom/nzbget (25/38)
+Fetching nzbgetcom/nzbget: 3page [00:03,  1.31s/page]
+Inserting nzbgetcom/nzbget PRs: 100%|██████████████████████████████████████| 54/54 [00:12<00:00,  4.40it/s]
+Inserted 54 PRs for nzbgetcom/nzbget.
+
+== Processing language: Go (4/9) ==
+
+Processing autobrr/autobrr (26/38)
+Fetching autobrr/autobrr: 14page [00:24,  1.78s/page]
+Inserting autobrr/autobrr PRs: 100%|███████████████████████████████████████| 78/78 [00:06<00:00, 11.99it/s]
+Inserted 78 PRs for autobrr/autobrr.
+
+Processing syncthing/syncthing (27/38)
+Fetching syncthing/syncthing: 45page [02:03,  2.74s/page]
+Inserting syncthing/syncthing PRs: 100%|█████████████████████████████████| 102/102 [00:08<00:00, 11.56it/s]
+Inserted 102 PRs for syncthing/syncthing.
+
+Processing rclone/rclone (28/38)
+Fetching rclone/rclone: 28page [00:55,  1.97s/page]
+Inserting rclone/rclone PRs: 100%|███████████████████████████████████████| 140/140 [00:12<00:00, 11.04it/s]
+Inserted 140 PRs for rclone/rclone.
+
+== Processing language: JS (5/9) ==
+
+Processing jellyfin/jellyfin-web (29/38)
+Fetching jellyfin/jellyfin-web: 50page [01:26,  1.73s/page]
+Inserting jellyfin/jellyfin-web PRs: 100%|███████████████████████████████| 182/182 [00:17<00:00, 10.31it/s]
+Inserted 182 PRs for jellyfin/jellyfin-web.
+
+== Processing language: JS & PHP (6/9) ==
+
+Processing Novik/ruTorrent (30/38)
+Fetching Novik/ruTorrent: 9page [00:15,  1.69s/page]
+Inserting Novik/ruTorrent PRs: 100%|███████████████████████████████████████| 55/55 [00:01<00:00, 43.33it/s]
+Inserted 55 PRs for Novik/ruTorrent.
+
+Processing nelu/rutorrent-filemanager (31/38)
+Fetching nelu/rutorrent-filemanager: 1page [00:00,  1.55page/s]
+Inserting nelu/rutorrent-filemanager PRs: 100%|████████████████████████████| 2/2 [00:00<00:00, 1988.29it/s]
+Inserted 2 PRs for nelu/rutorrent-filemanager.
+
+== Processing language: Java (7/9) ==
+
+Processing y-polek/TransmissionRemote (32/38)
+Fetching y-polek/TransmissionRemote: 1page [00:01,  1.02s/page]
+Inserting y-polek/TransmissionRemote PRs: 100%|████████████████████████████| 3/3 [00:00<00:00, 2301.19it/s]
+Inserted 3 PRs for y-polek/TransmissionRemote.
+
+Processing erickok/transdroid (33/38)
+Fetching erickok/transdroid: 2page [00:02,  1.28s/page]
+Inserting erickok/transdroid PRs: 100%|██████████████████████████████████████| 5/5 [00:00<00:00,  6.66it/s]
+Inserted 5 PRs for erickok/transdroid.
+
+== Processing language: PHP (8/9) ==
+
+Processing nextcloud/server (34/38)
+Fetching nextcloud/server: 316page [10:54,  2.07s/page]
+Inserting nextcloud/server PRs: 100%|██████████████████████████████████| 1073/1073 [30:02<00:00,  1.68s/it]
+Inserted 1073 PRs for nextcloud/server.
+
+== Processing language: Python (9/9) ==
+
+Processing deluge-torrent/deluge (35/38)
+Fetching deluge-torrent/deluge: 5page [00:07,  1.57s/page]
+Inserting deluge-torrent/deluge PRs: 100%|█████████████████████████████████| 10/10 [00:00<00:00, 13.49it/s]
+Inserted 10 PRs for deluge-torrent/deluge.
+
+Processing morpheus65535/bazarr (36/38)
+Fetching morpheus65535/bazarr: 9page [00:14,  1.65s/page]
+Inserting morpheus65535/bazarr PRs: 100%|██████████████████████████████████| 44/44 [00:02<00:00, 19.88it/s]
+Inserted 44 PRs for morpheus65535/bazarr.
+
+Processing sabnzbd/sabnzbd (37/38)
+Fetching sabnzbd/sabnzbd: 12page [00:30,  2.54s/page]
+Inserting sabnzbd/sabnzbd PRs: 100%|███████████████████████████████████████| 32/32 [00:04<00:00,  7.11it/s]
+Inserted 32 PRs for sabnzbd/sabnzbd.
+
+Processing Tautulli/Tautulli (38/38)
+Fetching Tautulli/Tautulli: 11page [00:17,  1.59s/page]
+Inserting Tautulli/Tautulli PRs: 100%|███████████████████████████████████████| 9/9 [00:01<00:00,  5.70it/s]
+Inserted 9 PRs for Tautulli/Tautulli.
+
+All repositories processed. Checkpoint updated as complete.
+
+real	119m2.279s
+user	2m56.847s
+sys	0m17.619s

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Pull Request Analysis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 2rem auto;
+            max-width: 1100px;
+            line-height: 1.6;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        h1, h2, p {
+            color: #ffffff;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 2.5rem;
+            border-bottom: 1px solid #444;
+            padding-bottom: 0.3rem;
+        }
+        p {
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 0.5rem 0;
+            background-color: #222;
+            padding: 0.5rem;
+            border: 1px solid #444;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .row img {
+            flex: 1;
+            min-width: 250px;
+            max-width: 33%;
+        }
+    </style>
+</head>
+<body>
+    <h1>GitHub Pull Request Analysis Report</h1>
+    <p>44 accounts made PRs to at least 2 different repos between 2025-04-14 and 2025-05-21.</p>
+
+    
+        
+            <h2>Repos Hit (Unique Contributors)</h2>
+            <img src="pie_repo_hits.png" alt="Repos Hit (Unique Contributors)">
+        
+    
+        
+            <h2>PR Order Breakdown</h2>
+            <div class="row">
+                
+                    <img src="pie_first_repo.png" alt="First PR">
+                
+                    <img src="pie_second_repo.png" alt="Second PR">
+                
+                    <img src="pie_third_plus_repo.png" alt="Third+ PR">
+                
+            </div>
+        
+    
+        
+            <h2>All PRs by Repo</h2>
+            <img src="pie_all_prs_repo.png" alt="All PRs by Repo">
+        
+    
+        
+            <h2>PR State Distribution</h2>
+            <img src="pie_state_distribution.png" alt="PR State Distribution">
+        
+    
+        
+            <h2>PRs With vs Without Linked Issues</h2>
+            <img src="pie_linked_issues.png" alt="PRs With vs Without Linked Issues">
+        
+    
+        
+            <h2>Heatmap: First PR Dates</h2>
+            <img src="heat_first_pr.png" alt="Heatmap: First PR Dates">
+        
+    
+        
+            <h2>Heatmap: Second PR Dates</h2>
+            <img src="heat_second_pr.png" alt="Heatmap: Second PR Dates">
+        
+    
+        
+            <h2>Heatmap: Third+ PR Dates</h2>
+            <img src="heat_third_plus_pr.png" alt="Heatmap: Third+ PR Dates">
+        
+    
+        
+            <h2>Heatmap: All PR Dates</h2>
+            <img src="heat_all_pr.png" alt="Heatmap: All PR Dates">
+        
+    
+        
+            <h2>Number of Repos Each User Contributed To</h2>
+            <img src="bar_repos_per_user.png" alt="Number of Repos Each User Contributed To">
+        
+    
+</body>
+</html>

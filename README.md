@@ -33,22 +33,22 @@ The tool generates a GitHub Pages–friendly HTML report with:
 
 > These will be filed as GitHub issues in a future update.
 
-- Some repos (e.g., `openssl/openssl`) show **more PRs in the database than actually exist on GitHub**
+- Some repos (e.g., `openssl/openssl`) show **more PRs in the database than actually exist on GitHub in subsequent runs**
   - ex: Repo openssl/openssl has fewer PRs in GitHub (65) than DB (726)
-- Validation and count logic needs refining
 - No direct deduplication or conflict resolution if data is re-scraped
-- Repo count can start at wrong numbers (not 0) when a run is interupted, assume something to do with progress.json
+- Validation and count logic needs refining
+	- Repo count can start at wrong numbers (not 0) when a run is interupted, assume something to do with progress.json
 
 ---
 
 ### 🧪 Experiment Note
 
-This project was created using ChatGPT as an experiment. Gen purpose 4o, no special GPTs used. Plus subscription, and moved to new chat when it got obsessed with something.
+This project was created using ChatGPT as an experiment. Gen purpose 4o, no special GPTs used. Plus subscription, and moved to new chats when it got obsessed with something.
 
 > In hindsight:
 > - It would have been faster to write large chunks manually
 > - Validation checks should’ve been added earlier
-> - Scope evolved from a windowed search to full history, before settling on filtering to 2025 — the most efficient approach
+> - Collection scope evolved from the window to full history, before settling on filtering to 2025 (for now)
 
 Still, the process was valuable in understanding the trade-offs of AI-assisted dev workflows — though this was copy/paste not IDE-integrated.
 
