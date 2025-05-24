@@ -8,7 +8,7 @@ import os
 
 # Configuration
 DB_PATH = "pull_requests_2025.db"
-OUTPUT_DIR = "github_report"
+OUTPUT_DIR = "docs"
 TEMPLATE_DIR = "templates"
 TEMPLATE_FILE = "report_template.html"
 TIME_START = "2025-04-14T00:00:00Z"
